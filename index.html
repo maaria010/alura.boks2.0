@@ -56,9 +56,9 @@
               <!-- Additional required wrapper -->
                  <div class="swiper-wrapper">
               <!-- Slides -->
-        <div class="swiper-slide"><img src="img/ApacheKafka.png" alt="livro sobre apache karfkae spring boot da alurabooks"></div>
-         <div class="swiper-slide"><img src="img/Javascript.png" alt="livro sobre Javascript da alurabooks"></div>
-      <div class="swiper-slide"><img src="img/Portugol.png" alt="livro sobre Portugol no alurabooks"></div>
+        <div class="swiper-slide"><img src="img/ApacheKafka.png" alt="Livro sobre apache Kafka e spring boot da AluraBooks"></div>
+         <div class="swiper-slide"><img src="img/Javascript.png" alt="Livro sobre Javascript da AluraBooks"></div>
+      <div class="swiper-slide"><img src="img/Portugol.png" alt="Livro sobre Portugol da Alurabooks"></div>
       ...
     </div>
     <!-- If we need pagination -->
@@ -74,19 +74,15 @@
         </section>
         <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
         <script>
-            const swiper = new Swiper(' .swiper',{
-                spaceBetween: 30,
-                slidesPerview: 3,
+            const swiper = new Swiper('.swiper',{
+                spaceBetween: 10,
+                slidesPerView: 3,
                 pagination:{
-                    el: 'swiper-pagination',
-                    type:'bullets',
-                
-
-            },
-        });
-        
+                    el: '.swiper-pagination',
+                    type: 'bullets',
+                },
+            });
         </script>
-
     </body>
 
 
